@@ -1,11 +1,26 @@
 {
-  "name": "sprint-challenge-node-express",
+  "name": "sprint-chall-node-express",
   "version": "1.0.0",
   "description": "A challenge to asses Node and Express knowledge",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
-  "author": "Ivan Mora",
-  "license": "ISC"
+  "author": "Ivan Mora / Troy Bradley",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/Sprint-Challenge-Node-Express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "node-fetch": "^2.0.0",
+    "nodemon": "^1.14.12"
+  }
 }
