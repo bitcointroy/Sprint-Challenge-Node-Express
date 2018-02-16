@@ -4,3 +4,5 @@
 2. Express.js is another open-source project. It is a web application framework, supporting web applications such as web resources, web services, and web APIs. It is most commonly used in conjunction with Node.js.
 3. Middleware makes it easier to develop web applications by handling parts of communication between an Operating System and Application Software, or in the case of a web app, Server and Client. One example of middleware is body-parser, which parses JSON strings into usable code. Another example is any custom function that receives Request and Response objects in an API call, and then calls another function dealing with one or both.
 4. Endpoints are static server-side paths to functions available through a web API. They need to be static so that all software using the API will work consistently. The typical way to access an endpoint is via a Uniform Resource Identifier (URI). The programmer can tack on parameters or queries to a URI to form a complete URL for use in an HTTP call.
+
+Note: Wikipedia is the source for most of these definitions.
